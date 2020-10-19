@@ -1,4 +1,4 @@
-package ocp;
+package srp;
 
 public class CardioVascularSymptom extends Symptom { 
 	int covidImpact;

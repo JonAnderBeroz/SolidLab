@@ -1,6 +1,7 @@
-package ocp;
+package srp;
 
-public class CardioVascularSymptom extends Symptom { 
+
+public class RespiratorySymptom extends Symptom { 
 	int covidImpact;
 	int severityIndex;
 	int affectedDays;
