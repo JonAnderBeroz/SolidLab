@@ -25,7 +25,4 @@ public class Symptom {
 	public void setSeverityIndex(int severityIndex) {
 		this.severityIndex = severityIndex;
 	}
-	public void cure(){
-		System.out.println("treatment applied to: "+name);
-	}
 }

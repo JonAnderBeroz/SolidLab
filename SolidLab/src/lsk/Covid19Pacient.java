@@ -18,7 +18,9 @@ public class Covid19Pacient extends Pacient{
 	}
 	public void cure(){
 		for (Symptom s: symptoms.keySet())
-			s.cure();
+			if(s instanceof CurableSymptoms) {
+				((CurableSymptoms) s).cure();
+			}
 	}
 	double calcCovid19Impact() {	
 		double impact;

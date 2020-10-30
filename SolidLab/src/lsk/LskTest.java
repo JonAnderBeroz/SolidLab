@@ -4,7 +4,7 @@ public class LskTest {
 
 	public static void main(String[] args) {
 		Covid19Pacient p = new Covid19Pacient();
-		Symptom s1 = new Symptom();
+		Symptom s1 = new CurableSymptoms();
 		s1.setCovidImpact(1);
 		s1.setName("tos");
 		s1.setSeverityIndex(1);
